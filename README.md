@@ -38,6 +38,11 @@ The parameters that can be set through the `serilog:write-to:RollingFile` keys a
     <add key="serilog:write-to:Seq.apiKey" value="[optional API key here]" />
 ```
 
+## Logging as an Object
+
+One of the benefits of Seri is it's ability to handle objects for logging, which can give much more usable logs - especially with SEQ.
+If you enable the ParseAsObject (set it true) AppSetting, the string received will attempt to be converted into usable objects before being passed to Seri.
+
 
 ## Running
 
