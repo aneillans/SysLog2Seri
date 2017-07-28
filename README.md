@@ -47,3 +47,12 @@ If you enable the ParseAsObject (set it true) AppSetting, the string received wi
 ## Running
 
 Run SysLog2Seri.exe after updating the .config file; the application will run as a Console Application, or alternatively you can run SysLog2Seri install to install as a System Service. (SysLog2Seri uninstall will remove it). - Thanks to TopShelf :)
+
+## Third Party Libraries
+
+The following third party libraries are used by this project:
+
+[SeriLog](http://serilog.net/) (and varies extensions)
+
+[TopShelf](http://topshelf-project.com/)
+
